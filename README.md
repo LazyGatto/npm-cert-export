@@ -58,3 +58,9 @@ crontab -e
 # Add 
 0 * * * * /opt/npm-cert-export/sync_certs.sh > /opt/npm-cert-export/sync_certs.log
 ```
+
+5. Don't forget to disable certificate renew process in mailcow server.
+```
+# cat mailcow.conf | grep SKIP_LE
+SKIP_LETS_ENCRYPT=y
+```
