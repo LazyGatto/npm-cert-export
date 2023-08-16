@@ -13,7 +13,7 @@ It was developed for use with mailcow mail server, but actullay you can run it w
 
 This script logins over SSH into machine where NPM is running, then it finds appropriate certificate file for your domain.
 
-If local certificate already outdated it will be replaced with the new one from NPM.
+If local certificate already outdated, it will be replaced with the new one from NPM.
 
 ## Usage
 
